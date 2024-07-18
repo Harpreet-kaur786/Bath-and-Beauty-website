@@ -213,19 +213,51 @@ body{
 
 .field{
     display: flex;
+    justify-content: space-evenly;
 overflow: auto;
 white-space: nowrap;
 width: 100%;
 margin-top: 50px;
 position: relative;
- /* animation: mymove 5s infinite;
-  animation-direction: alternate;*/
+  animation: mymove 5s infinite;
+  animation-direction: alternate;
+  border: 1px solid black;
+  height: 250px;
 }
-/*@keyframes mymove {
+.one{
+    border: 2px solid black;
+    
+    
+}
+.field1{
+    width: 80%;
+    height: auto;
+    border:  2px;
+}
+
+.two{
+    border: 2px solid black;
+}
+.three{
+    border: 2px solid black;
+}
+.four{
+    border: 2px solid black;
+}
+.five{
+    border: 2px solid black;
+}
+.six{
+    border: 2px solid black;
+}
+.seven{
+    border: 2px solid black;
+}
+@keyframes mymove {
     from {left: 500px;}
     to {left: 0px;}
   }
-    */
+    
 .field img{
     width: 10%;
 }
