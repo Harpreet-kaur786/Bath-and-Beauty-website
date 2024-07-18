@@ -1,0 +1,371 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: SourceSansPro,Arial,sans-serif;
+ }
+ 
+ .info{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color:#3633A1;
+     height: 50px;
+     
+     
+ }
+ .promo{
+     display: flex;
+     align-items: center;
+     color: #fff;
+     font-size: 1.0rem;
+     
+ 
+ }
+  .info p{
+     margin-right: 10px;
+     font-size: 2rem;
+     color: #fff;
+     font-weight: 700;
+     padding-left: 5px;
+     padding-bottom: 20px;
+     border-radius: 2px solid white;
+ }
+ .savings{
+     font-size: 1.2rem;
+     color: #fff;
+     margin-left: 10px;
+ 
+ }
+ .sale{
+     font-size: 1.4rem;
+     color: #fff;
+     font-weight: 700;
+     
+ }
+ 
+ span{
+     color: #fff;
+     margin-left: 10px;
+     font-size: 1.2rem;
+     font-weight: 500;
+ }
+ /** Second div **/
+ .pannelall{
+     height: 40px;
+     width: 100%;
+     display: flex;
+     padding-top: 10px;
+     justify-content: space-evenly;
+     align-items: center;
+     border-bottom: 5px solid #e5e5e5;
+     margin-bottom: 10px;
+ }
+  .pannel{
+     width: 70%;
+     display: flex;
+     justify-content: flex-start;
+     color:#5953b8;
+     font-weight: 700;
+     font-size: 1.2rem;
+ 
+  }
+  .pannel i{
+     font-size: 1.2rem;
+     color: black;
+     text-decoration: underline;
+     padding-right: 10px;
+ }
+ .pannel a{
+     
+     text-decoration: none;
+     padding:5px 5px 5px 5px;
+     color:#544747;
+     text-decoration: underline;
+ }
+ .pannel2{
+     color: #db3d86;
+     font-weight: 700;
+     font-size: 1.2rem;
+ }
+ .pannel2 a{
+     color: #666666;
+     font-weight: 200;
+     font-size: 1rem;
+     padding-left: 5px;
+ }
+ .pannel3{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     height: 45px;
+     width: 100%;
+     margin-top: 50px;
+    
+    
+     
+ }
+ .logo {
+     
+     height: 45px;
+     margin-top: 10px;
+     padding-top: 20px;
+     display: flex;
+    color: #db3d86;
+    width: 64%;
+    justify-content: end;
+    padding-left: 100px;
+    margin-left: 220px;
+ 
+ }
+ .image{
+     width: 80%;
+     
+ }
+ button{
+     border: none;
+     text-decoration: none;
+     
+ }
+ .logo1 input{
+     
+     font-size: 1.17rem;
+     width: 85%;
+     border: none;
+     outline: none;padding-left: 5px;
+ }
+ .logo1 i{
+     font-size: 1.3rem;
+     padding-left: 10px;
+     color:#5953b8 ;
+     width: 10%;
+     display: flex;
+     justify-content: center;
+     
+     
+ }
+ .logo1{
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     margin-top: 20px;
+     width: 22%;
+     border: 2px solid black;
+     height: 45px;
+     
+ }
+ .signin{
+     font-size: 0.6rem;
+     height: 60px;
+     margin-top: 20px;
+     width: 8%;
+    
+ }
+ .bag i{
+     font-size: 2.8rem;
+     height: 60px;
+     margin-top: 15px;
+     padding-top: 20px;
+     color: #3633A1;
+     width: 8%;
+     margin-right: 20px;
+ }
+ .option{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     margin-top: 30px;
+     border-bottom: 5px solid #e5e5e5;
+     height: 60px;
+ }
+ .option a{
+     align-items: center;
+     text-decoration: none;
+     color: #000;
+     font-weight: 600;
+     font-size: 1.2rem;
+     padding-right: 60px;
+     
+ }
+ .allsale:hover{
+     color: red;
+ }
+ .allsale:visited{
+     color: #e81111;
+ }
+.gift {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    text-align: center;
+    color: chocolate;
+}
+.image{
+    margin-top: 10px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+.head{font-size: 3rem;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.field{
+    display: flex;
+overflow: auto;
+white-space: nowrap;
+width: 100%;
+margin-top: 50px;
+position: relative;
+ /* animation: mymove 5s infinite;
+  animation-direction: alternate;*/
+}
+/*@keyframes mymove {
+    from {left: 500px;}
+    to {left: 0px;}
+  }
+    */
+.field img{
+    width: 10%;
+}
+.field1{
+    width: 20%;
+}
+.wedding{
+    margin-top: 50px;
+}
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+.option1{
+    width: 15%;
+    height: auto;
+    margin-left: 10px;
+}
+.option2{
+    width: 15%;
+    height: auto;
+    margin-left: 10px;
+
+}
+.option3{
+    width: 15%;
+    height: auto;
+    margin-left: 10px;
+    
+}
+.option4{
+    width: 15%;
+    height: auto;
+    margin-left: 10px;
+
+}
+.option5{
+    width: 15%;
+    height: auto;
+    margin-left: 10px;
+
+}
+.option6{
+    width: 15%;
+    height: auto;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.foot{
+    width: 80%;
+    margin-left: 10%;
+    border: 2px solid black;
+    border-radius: 30px;
+    
+    height: 500px;
+    margin-top: 30px;
+    background-image: url("");
+    background-color: blueviolet;
+}
+.inner{
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 475px;
+    margin-left: 20%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: beige;
+}
+.place{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.place h4{
+    font-size: 3rem;
+    margin-bottom: 2px;
+}
+.place input{
+  font-size: 1rem;
+  height: 35px;
+  border-radius: 15px;
+  padding-left: 10px;
+  width: 500px;
+}
+.place ::placeholder{
+    font-size: 1rem;
+}
+.place textarea{
+    height: 100px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+textarea ::placeholder{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.place button{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+.overlay{position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 40%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+.field1:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
