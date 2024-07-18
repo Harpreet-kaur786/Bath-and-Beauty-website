@@ -5,3 +5,4 @@ This project is a basically a clone of offical website of Body and Bath works in
 Key Features:
 1. Responsive Design:The project uses responsive design principles to ensure the web pages look great on all devices, from desktops to mobile phones.
 2.Styling Variations: Multiple CSS files (main.css,gifts.css) demonstrate different styles and themes applied to various HTML pages.
+3.Interactive Elements:The images folder showcases a collection of images with CSS styling to create an appealing gallery.
