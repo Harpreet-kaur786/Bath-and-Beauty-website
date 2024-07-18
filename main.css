@@ -1,0 +1,1031 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: SourceSansPro,Arial,sans-serif;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3633A1;
+    height: 50px;
+    
+    
+}
+.promo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1.0rem;
+    
+
+}
+ .info p{
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    border-radius: 2px solid white;
+}
+.savings{
+    font-size: 1.2rem;
+    color: #fff;
+    margin-left: 10px;
+
+}
+.sale{
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 700;
+    
+}
+
+span{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+/** Second div **/
+.pannelall{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 5px solid #e5e5e5;
+    margin-bottom: 10px;
+}
+ .pannel{
+    width: 70%;
+    color:#5953b8;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+ }
+ .pannel i{
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+    padding-right: 10px;
+}
+.pannel a{
+    
+    text-decoration: none;
+    padding:5px 5px 5px 5px;
+    color:#544747;
+    text-decoration: underline;
+}
+.pannel2{
+    color: #db3d86;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.pannel2 a{
+    color: #666666;
+    font-weight: 200;
+    font-size: 1rem;
+    padding-left: 5px;
+}
+.pannel3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    margin-top: 50px;
+   
+   
+    
+}
+.logo {
+    
+    height: 45px;
+    margin-top: 10px;
+    padding-top: 20px;
+    display: flex;
+   color: #db3d86;
+   width: 64%;
+   justify-content: end;
+   padding-left: 100px;
+   margin-left: 220px;
+
+}
+.image{
+    width: 80%;
+    
+}
+button{
+    border: none;
+    text-decoration: none;
+    
+}
+.logo1 input{
+    
+    font-size: 1.17rem;
+    width: 85%;
+    border: none;
+    outline: none;padding-left: 5px;
+}
+.logo1 i{
+    font-size: 1.3rem;
+    padding-left: 10px;
+    color:#5953b8 ;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.logo1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    width: 22%;
+    border: 2px solid black;
+    height: 45px;
+    
+}
+.signin{
+    font-size: 0.6rem;
+    height: 60px;
+    margin-top: 20px;
+    width: 8%;
+   
+}
+.bag i{
+    font-size: 2.8rem;
+    height: 60px;
+    margin-top: 15px;
+    padding-top: 20px;
+    color: #3633A1;
+    width: 8%;
+    margin-right: 20px;
+}
+.option{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    border-bottom: 5px solid #e5e5e5;
+    height: 60px;
+}
+.option a{
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-right: 60px;
+    margin-bottom: 10px ;
+    
+}
+.allsale:hover{
+    color: red;
+}
+.allsale:visited{
+    color: #e81111;
+}
+.poster{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.post{
+    height: 750px;
+    width: 85%;
+}
+.promo1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.promo1 a{
+    font-size: 1.2rem;
+    color: #000;
+}
+.promo2{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+
+}
+.promo2 a{
+    font-size: 1.4rem;
+    color:#fff;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2PX solid #000;
+    background-color: #1A1A1A;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.card1{
+    width:12%;
+    height: 25%;
+    padding-left: 5px;
+}
+.card2{
+    width:12%;
+    height: 25%;
+}
+.card3{
+    width:12%;
+    height:25%;
+}
+.card4{
+    width:12%;
+    height:25%;
+}
+.card5{
+    width:12%;
+    height:25%;
+}
+.card6{
+    width: 12%;
+    height: 25%;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: #000;
+    font-weight: 750;
+    font-size: 1.8rem;
+}
+.shop{
+    display:block;
+    width: 20%;
+    padding-top: 60px;
+    
+  
+}
+.shops{
+    height: 350px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    
+}
+.para{
+   height: 10px;
+}
+.para1{
+    color:#1A1A1A;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-left: 40px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.para2{
+    color:#666666;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-left: 40px;
+    margin-left: 20px;
+    height: 0.5px;
+}
+.Tag{
+    color: #1A1A1A;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-left: 40px;
+    margin-left: 20px;
+    height: 0.5px;
+    
+}
+.price{
+    color: #db3d86;
+    font-size: 1rem;
+    padding-left: 40px;
+    margin-left: 20px;
+    height: 0.5px;
+}
+.Tags{
+    color: #1A1A1A;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-left: 40px;
+    margin-left: 20px;
+    height: 0.5px;
+ 
+}
+.all-patt{
+display: flex;
+overflow: auto;
+white-space: nowrap;
+
+}
+.para1{
+    color:#1A1A1A;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-left: 40px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.shops1{
+    height: 410px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+}
+.shop1{
+    display:block;
+    width: 20%;
+    
+  
+}
+.Tag1{
+    color: #1A1A1A;
+    font-size: 1.3rem;
+    font-weight: 700;
+    height: 0.5px;
+    
+}
+.para3{
+    color:#666666;
+    font-size: 1.3rem;
+    font-weight: 600;
+    height: 0.5px;
+}
+.price1{
+    color: #db3d86;
+    font-size: 1rem;
+   
+    height: 0.5px;
+}
+.Tags1{
+    color: #1A1A1A;
+    font-size: 1.3rem;
+    font-weight: 700;
+    
+    height: 0.5px;
+    text-decoration:line-through;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #e5e5e5;
+    background-color: #000;
+    height: 50px;
+    width: 280px;
+    margin-left: 60px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}  
+.cart2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #e5e5e5;
+    background-color: #000;
+    height: 50px;
+    width: 280px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.poster{
+    margin-top: 100px;
+}
+.poster1{
+    width: 85%;
+}
+.classes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+}
+.class1 a{
+    color: #000;
+    font-size: 1.3rem;
+    
+}
+.img1{
+    width: 190px;
+    height: 180px;
+    
+}
+.img2{
+    width: 190px;
+    height: 180px;
+}
+.img3{
+    width: 190px;
+    height: 180px
+}
+.img4{
+    width: 190px;
+    height: 180px
+}
+.img5{
+    width: 190px;
+    height: 180px
+}
+.img6{
+    width: 190px;
+    height: 180px;
+}
+.link{
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-top: 10px;
+    padding-top: 20px;
+    width: 100%;
+   
+}
+.link a{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color:#1A1A1A;
+    padding-left: 40px;
+    
+}
+.point{
+    margin-top: 50px;
+    padding-top: 20px;
+    height: 0.5px;
+    font-size: 1.4rem;
+    
+}
+.point p{
+    color: #000;
+    align-items: center;
+    margin-left: 31%;
+    height: 0.2px;
+    font-size: 1.9rem;
+}
+.text2{
+    padding-left: 15%;
+    height: 0.5px;
+}
+.text3 {
+    font-size: 1.4rem;
+    height: 0.5px;
+    color: #544747;
+    margin-left: 32%;
+    font-weight: 100;
+}
+.text4 {
+    font-size: 1.5rem;
+    height: 0.5px;
+    color: #544747;
+    margin-left: 46%;
+    font-weight: 100;
+}
+.learn
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.learn a{
+    font-size: 1.4rem;
+    color:#000;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2PX solid #000;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 2%;
+    
+}
+.image1{
+    padding-left: 5%;
+    margin-top: 17%;
+    
+}
+.image2{
+    height: auto;
+    width: 800px;
+}
+.more{
+    margin-left: 40%;
+    padding-top: 40px;   
+    font-size: 1.8rem;
+}
+.pic{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pic1{
+    width: 250px;
+    height: 250px;
+}
+.pic2{
+    width: 250px;
+    height: 250px;
+}
+.pic3{
+    width: 250px;
+    height: 250px;
+}
+.pic4{
+    width: 250px;
+    height: 250px;
+}
+.pic5{
+    width: 250px;
+    height: 250px;
+}
+.pic6{
+    width: 250px;
+    height: 250px;
+}
+.content{
+    margin-left: 30%;
+    height: 10%;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-top: 50px;
+
+}
+.content h4 {
+
+    height: 3px;   
+    font-weight: 100;
+    color: #544747;
+}
+.content h4 a{
+    color: #544747;
+}
+.del{
+    height: 1px;
+}
+.del1{
+    height: 1px;
+}
+.del2{
+    height: 1px;
+}
+.del3{
+    height: 1px;
+}
+.del4{
+    height: 1px;
+}
+.del4 a{
+    color: #544747;
+}
+.del5{
+    height: 1px;
+}
+.del6{
+    height: 1px;
+}
+.del6 a{
+    color: #544747;
+}
+.del7{
+    height: 1px;
+}
+.del7 a{
+    color: #544747;
+}
+.content2{
+    margin-top: 10%;
+}
+.cont8{
+    padding-bottom: 100px;
+}
+.fotter p{
+    color: #544747;
+    font-size: 1.3rem;
+    padding-top: 20px;
+    font-weight: 200;
+}
+.main{
+    border-bottom:5px solid #e5e5e5;
+}
+.fotter{
+    display: flex;
+    justify-content: space-evenly;
+}
+.f{
+    background-color: #e5e5e5;
+    height: 200px;
+    padding-top: 20px;
+}
+.fotter2{
+    display: inline;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding-left: 6%;
+}
+.fotter2 a{
+    text-decoration: none;
+    color: #544747;
+}
+.fotter3{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+.fotter3 a{
+    text-decoration: none;
+    color: #544747;
+    
+}
+.fotter4{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 2%;
+}
+.fotter4 h4{
+    
+    text-decoration: none;
+    color: #544747;
+}
+.foot p{
+    color: #544747;
+    font-size: 1.3rem;
+    padding-right: 2%;
+}
+.foot h3{
+    font-size: 1.4rem;
+    color: #544747;
+}
+
+.foot1 a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #544747;
+    
+}
+.foot2 a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #544747;
+}
+.foot3 a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #544747;
+}
+.foot4 a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #544747;
+}
+.foot input{
+    width: 300px;
+    height: 30px;
+}
+.foot h4{
+    border: 2px solid #000;
+    width: 200px;
+    height: 40px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.foot i{
+    font-size: 1.9rem;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+@media  (max-width:900px) {
+   .info{
+    display:inline-block;
+    height: 50px;
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+   }
+   .info a{
+    display: inline;
+    color: #fff;
+    font-size: 1rem;
+   }
+   span{
+    font-size: 1rem;
+   }
+   .sale{
+    font-size: 1.2rem;
+   }
+   .savings{
+    display: inline;
+    font-size: 1rem;
+   }
+   .info p{
+
+    font-size: 2rem;
+    color:#fff;
+    font-weight: 700;
+display: inline;
+font-size: 1rem;
+   }
+   .pannel3{
+    width: 100%;
+    top: 0;
+    height: 10px;
+    display:inline;
+    top: 0;
+    position: fixed;
+    padding-top: 20px;
+    height: 40px;
+    width: 20%;
+   }
+   .logo{
+    display: inline;
+   }
+   .image{
+    width: 10%;
+   }
+   .logo1{
+    border-style: none;
+    display: inline;
+   }
+  .logo1 i{
+    width: 10%;
+    display: inline;
+    padding-right: 100%;
+    padding-top: 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .logo1 ::-webkit-input-placeholder{
+
+          color: #fff;
+          border: none;
+          text-decoration: none;
+          width: 1%;
+          
+  }
+   .bag{
+    display: inline;
+   }
+   .pannelall{
+    margin-top: 70%;
+   }
+   .option{
+    overflow: auto;
+    white-space: none;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+   }
+   .option a{
+    font-size: 0.9rem;
+   }
+   .poster{
+    width: 100%;
+    padding-top: 0;
+    margin-top: 0;
+   }
+   .post{
+    width: 90%;
+    height: auto;
+   }
+   .promo2{
+    font-size: 1rem;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+   }
+   .card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+   }
+   .card1{
+    display: inline;
+    width: 35%;
+    padding-bottom: 10px;
+   }
+   .card2{
+    display: inline;
+    width: 35%;
+    padding-bottom: 10px;
+   }
+   .card3{
+    display: inline;
+    width: 35%;
+    padding-bottom: 10px;
+   }
+   .card4{
+    display: inline;
+    width: 35%;
+    padding-bottom: 10px;
+   }
+   .card5{
+    display: inline;
+    width: 35%;
+    padding-bottom: 10px;
+   }
+   .card6{
+    display: inline;
+    width: 35%;
+    padding-bottom: 10px;
+   }
+   .text{
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+   }
+   .all-patt{
+    display: flex;
+    
+    flex-wrap: wrap;
+
+    width: 100%;
+    overflow: auto;
+    white-space: none;
+    
+   }
+   .para{
+    width: 100%;
+    display: inline;
+    
+   }
+  .shop1{
+    width: 100%;
+    display: inline;
+  }
+   .shop{
+    width: 100%;
+    display: inline;
+   }
+   .para1{
+    width: 100%;
+    display: inline;
+   }
+   .shops{
+    width: 100%;
+    height: auto;
+    display: inline;
+   }
+   .shops1{
+    width: 100%;
+    height: auto;
+    display: inline;
+   }
+   .classes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+   }
+   .img1{
+    display: inline;
+    width: 40%;
+    height: auto;
+    padding-bottom: 10px;
+   }
+   .img2{
+    display: inline;
+    width: 40%;
+    height: auto;
+    padding-bottom: 10px;
+   }
+   .img3{
+    display: inline;
+    width: 40%;
+    height: auto;
+    padding-bottom: 10px;
+   }
+   .img4{
+    display: inline;
+    width: 40%;
+    height: auto;
+    padding-bottom: 10px;
+   }
+   .img5{
+    display: inline;
+    width: 40%;
+    height: auto;
+    padding-bottom: 10px;
+    
+   }
+   .img6{
+    display: inline;
+    width: 40%;
+    height: auto;
+    padding-bottom: 10px;
+   }
+  .image1{
+    width: 80%;
+  }
+  .image2{
+    width: 90%;
+    height: auto;
+    margin-top: 40%;
+    padding-top: 20%;
+  }
+  .more{
+    display: inline;
+    font-size: 1.2rem;
+    margin-left: 0;
+    text-align: center;
+    padding-left: 6%;
+    width: 100%;
+  }
+  .pic{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  }
+  .pic1{
+    display: inline;
+    width: 35%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .pic2{
+    display: inline;
+    width: 35%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .pic3{
+    display: inline;
+    width: 35%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .pic4{
+    display: inline;
+    width: 35%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .pic5{
+    display: inline;
+    width: 35%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .pic6{
+    display: inline;
+    width: 35%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .content{
+    display: inline;
+    width: 100%;
+  }
+  .content h4{
+    display: inline;
+    font-size: 1.3rem;
+    width: 60%;
+    margin:0;
+    padding-top: 10px;
+    padding-bottom: 50px ;
+  }
+  .fotter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+  }
+}
