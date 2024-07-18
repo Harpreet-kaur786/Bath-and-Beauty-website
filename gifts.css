@@ -106,10 +106,7 @@ body{
      
  }
  .logo {
-     
      height: 45px;
-     margin-top: 10px;
-     padding-top: 20px;
      display: flex;
     color: #db3d86;
     width: 64%;
@@ -117,6 +114,10 @@ body{
     padding-left: 100px;
     margin-left: 220px;
  
+ }
+ .logo a{
+    width: 60%;
+    margin-right: 80px;
  }
  .image{
      width: 80%;
