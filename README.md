@@ -17,3 +17,11 @@ CSS Files:
 
 main.css: Styles for the main page.
 gifts.css: Styles for the gift page.
+
+Purpose
+The purpose of this project is to provide a hands-on example of how CSS can be used to create attractive and functional web pages. It serves as a learning resource for anyone interested in improving their CSS skills and understanding how to integrate CSS with HTML  effectively.
+
+How to Use
+Clone the Repository: Download the project files from GitHub.
+Open HTML Files: Open Index.html and gifts.html in your web browser to view the styled pages.
+Explore the Code: Review the CSS and HTML code to understand how the styles are applied and how the layout is structured.
