@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.header .blue-box img {
+    width: 375px;
+    height: 125px;
+}
+
+.header .text-in{
+    align-items: center;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-family: "Pacifico", cursive;
+    font-style: normal;
+}
+
+.header h3 {
+    margin-top: 1px;
+}
+
+.link-head nav {
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+}
+
+.link-head nav a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 5px;
+}
+
+.link-head nav a:hover{
+    color: #3633A1;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 45%;
+}
+
+.form-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form label {
+    margin-bottom: 5px;
+}
+
+.form-container form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container form .remember-me,
+.form-container form .terms,
+.form-container form .subscribe {
+    display: flex;
+    align-items: center;
+}
+
+.form-container form .remember-me input,
+.form-container form .terms input,
+.form-container form .subscribe input {
+    margin-right: 10px;
+}
+
+.form-container form .terms label,
+.form-container form .subscribe label {
+    font-size: 0.9rem;
+}
+
+.form-container form .terms label a,
+.form-container form .subscribe label a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.form-container form .terms label a:hover,
+.form-container form .subscribe label a:hover {
+    text-decoration: underline;
+}
+
+.form-container form button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-container form button:hover {
+    background-color: #005bb5;
+}
