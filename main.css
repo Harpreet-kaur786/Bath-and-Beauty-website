@@ -731,10 +731,21 @@ white-space: nowrap;
     padding-right: 20px;
     padding-bottom: 10px;
 }
-@media  (max-width:950px) {
+@media  (max-width:900px ) {
+    header, header.stickyOn {
+    border: none !important;
+    z-index: 111 !important;
+}
+    [body]{
+        overflow-x: hidden;
+        height: auto;
+    }
+    
     .head{
         margin-top: 0;
         padding: 0;
+        width: 100%;
+        overflow-x: hidden;
         
     }
     
@@ -744,6 +755,7 @@ white-space: nowrap;
     width: 100%;
     padding-bottom: 10px;
     text-align: center;
+    align-self: center;
 
    }
    .info a{
@@ -909,47 +921,14 @@ font-size: 1rem;
     font-size: 1.5rem;
     text-align: center;
    }
-   .all-patt{
-    display: inline-block;
-    width: 100%;
-    
-   }
-   .shop{
-    display: inline;
-   }
-   .para{
-    width: 100%;
-    display: inline;
-    
-   }
-  .shop1{
-    width: 100%;
-    display: inline;
-  }
-   .shop{
-    width: 100%;
-    display: inline;
-   }
-   .para1{
-    width: 100%;
-    display: inline;
-   }
-   .shops{
-    width: 100%;
-    height: auto;
-    display: inline;
-   }
-   .shops1{
-    width: 100%;
-    height: auto;
-    display: inline;
-   }
+  
    .poster{
     width: 100%;
+    margin-bottom: 0;
    }
    .poster1{
     width: 90%;
-    height: 80px;
+    height: 300px;
     
    }
    .classes{
@@ -958,6 +937,7 @@ font-size: 1rem;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
+    margin-top: 0;
    }
    .img1{
     display: inline;
@@ -1111,12 +1091,15 @@ font-size: 1rem;
   }
   .content{
     display: inline-block;
-    width: 100%;
+    width: 90%;
     text-align: center;
     margin: 0;
     padding: 0;
     margin-top: 40px;
-    height: 10%;
+    font-size: 0.9rem;
+    padding-left: 10px;
+    align-items: center;
+    font-weight: 800;
   }
   .cont{
     display: inline;
@@ -1127,7 +1110,7 @@ font-size: 1rem;
   .del,.del1,.del2,.del3,.del4{
     display: inline;
     text-align: center;
-    padding-left: 13%;
+    padding-left: 10px;
     width: 90%;
     font-weight: 700;
   }
@@ -1136,17 +1119,18 @@ font-size: 1rem;
  }
  .content2{
     display: inline-block;
-    width: 100%;
+    width: 90%;
     text-align: center;
     margin: 0;
     padding: 0;
-    height: 10px;
     padding-bottom: 0;
+    font-size: 0.9rem;
+    font-weight: 800;
  }
  .cont1, .cont2, .cont3,.cont4,.cont5{
     display: inline;
     text-align: center;
-    padding-left: 13%;
+    padding-left: 10px;
  }
  .cont6, .cont7,.cont8{
     visibility: hidden;
@@ -1169,8 +1153,9 @@ font-size: 1rem;
     text-align: center;
     font-size: 1rem;
   }
+  
   .foot p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
   }
   .foot ::placeholder{
@@ -1190,7 +1175,7 @@ font-size: 1rem;
     text-align: center;
   }
   .foot1 p{
-       font-size: 1.3rem;
+       font-size: 1rem;
        font-weight: 600;
   }
   .foot2{
@@ -1200,7 +1185,7 @@ font-size: 1rem;
     text-align: center;
   }
   .foot2 p{
-       font-size: 1.3rem;
+       font-size: 1rem;
        font-weight: 600;
   }
   .foot3{
@@ -1210,7 +1195,7 @@ font-size: 1rem;
     text-align: center;
   }
   .foot3 p{
-       font-size: 1.3rem;
+       font-size: 1rem;
        font-weight: 600;
   }
   .foot4{
@@ -1220,7 +1205,7 @@ font-size: 1rem;
     text-align: center;
   }
   .foot4 p{
-       font-size: 1.3rem;
+       font-size: 1rem;
        font-weight: 600;
   }
   .f{
@@ -1237,7 +1222,7 @@ font-size: 1rem;
     display: inline-block;
     margin: 0%;
     padding: 0%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
     text-align: center;
     width: 100%;
@@ -1252,15 +1237,25 @@ font-size: 1rem;
     display: inline-block;
     margin: 0%;
     padding: 0%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
     margin-left: 0;
     margin-top: 0;
+    width: 90%;
+    text-align: center;
   }
   .fotter4{
     display: inline-block;
     margin: 0;
     padding: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
   }
+  .all-patt{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+  }
+  
 }
