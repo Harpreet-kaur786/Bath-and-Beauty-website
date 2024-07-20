@@ -293,8 +293,8 @@ button{
   
 }
 .shops{
-    height: 350px;
-    padding-left: 40px;
+    height: 300px;
+    margin-left: 40px;
     padding-bottom: 20px;
     
 }
@@ -304,7 +304,7 @@ button{
 .para1{
     color:#1A1A1A;
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 400;
     padding-left: 40px;
     margin-left: 20px;
     padding-bottom: 10px;
@@ -312,7 +312,7 @@ button{
 .para2{
     color:#666666;
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 400;
     padding-left: 40px;
     margin-left: 20px;
     height: 0.5px;
@@ -328,10 +328,11 @@ button{
 }
 .price{
     color: #db3d86;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
     padding-left: 40px;
     margin-left: 20px;
-    height: 0.5px;
+    height: 10px;
 }
 .Tags{
     color: #1A1A1A;
@@ -356,18 +357,7 @@ white-space: nowrap;
     margin-left: 20px;
     padding-bottom: 10px;
 }
-.shops1{
-    height: 410px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    
-}
-.shop1{
-    display:block;
-    width: 20%;
-    
-  
-}
+
 .Tag1{
     color: #1A1A1A;
     font-size: 1.3rem;
@@ -378,14 +368,15 @@ white-space: nowrap;
 .para3{
     color:#666666;
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 400;
     height: 0.5px;
 }
 .price1{
     color: #db3d86;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
    
-    height: 0.5px;
+    height: 10px;
 }
 .Tags1{
     color: #1A1A1A;
@@ -715,18 +706,61 @@ white-space: nowrap;
     width: 300px;
     height: 30px;
 }
-.foot h4{
+.popup-link{
     border: 2px solid #000;
     width: 200px;
-    height: 40px;
+    height:30px;
     font-size: 1.5rem;
     font-weight: 400;
     color: #e5e5e5;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
     background-color: #000;
+    text-decoration: none;
 }
+.overlay {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.overlay:target {
+    visibility: visible;
+}
+.popup {
+    position: relative;
+    margin: 170px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.popup-close {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.popup p{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: medium;
+}
+
 .foot i{
     font-size: 1.9rem;
     padding-right: 20px;

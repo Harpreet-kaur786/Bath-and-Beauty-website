@@ -231,41 +231,6 @@ position: relative;
     
     
 }
-.field1{
-    width: 80%;
-    height: auto;
-    border:  2px;
-}
-
-.two{
-    border: 2px solid black;
-}
-.three{
-    border: 2px solid black;
-}
-.four{
-    border: 2px solid black;
-}
-.five{
-    border: 2px solid black;
-}
-.six{
-    border: 2px solid black;
-}
-.seven{
-    border: 2px solid black;
-}
-@keyframes mymove {
-    from {left: 500px;}
-    to {left: 0px;}
-  }
-    
-.field img{
-    width: 10%;
-}
-.field1{
-    width: 20%;
-}
 .wedding{
     margin-top: 50px;
 }
@@ -318,9 +283,9 @@ position: relative;
     margin-left: 10%;
     border: 2px solid black;
     border-radius: 30px;
-    
+    margin-bottom: 20px;
     height: 500px;
-    margin-top: 30px;
+    margin-top: 20px;
     background-image: url("");
     background-color: blueviolet;
 }
@@ -371,35 +336,3 @@ textarea ::placeholder{
     border-radius: 10px;
     background-color: blueviolet;
 }
-.overlay{position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 40%;
-    height: 100%;
-    -webkit-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-    -webkit-transition: .3s ease;
-    transition: .3s ease;
-}
-.field1:hover .overlay {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
-  
-.text{
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
