@@ -95,83 +95,85 @@ body{
      padding-left: 5px;
  }
  .pannel3{
-     display: flex;
-     justify-content: space-evenly;
-     align-items: center;
-     height: 45px;
-     width: 100%;
-     margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    margin-top: 50px;
+   
+   
     
+}
+.logo {
     
-     
- }
- .logo {
+    height: 45px;
+    margin-top: 10px;
+    padding-top: 20px;
+    display: flex;
+   color: #db3d86;
+   width: 50%;
+   justify-content: end;
+   padding-left: 100px;
+   margin-left: 220px;
 
-     height: 45px;
-     display: flex;
-    color: #db3d86;
-    width: 64%;
-    justify-content: end;
-    padding-left: 100px;
-    margin-left: 220px;
- 
- }
- .logo a{
-    width: 60%;
-    margin-right: 80px;
- }
- .image{
-     width: 80%;
-     
- }
- button{
-     border: none;
-     text-decoration: none;
-     
- }
- .logo1 input{
-     
-     font-size: 1.17rem;
-     width: 85%;
-     border: none;
-     outline: none;padding-left: 5px;
- }
- .logo1 i{
-     font-size: 1.3rem;
-     padding-left: 10px;
-     color:#5953b8 ;
-     width: 10%;
-     display: flex;
-     justify-content: center;
-     
-     
- }
- .logo1{
-     display: flex;
-     align-items: center;
-     justify-content: flex-start;
-     margin-top: 20px;
-     width: 22%;
-     border: 2px solid black;
-     height: 45px;
-     
- }
- .signin{
-     font-size: 0.6rem;
-     height: 60px;
-     margin-top: 20px;
-     width: 8%;
+}
+.image{
+    width: 80%;
     
- }
- .bag i{
-     font-size: 2.8rem;
-     height: 60px;
-     margin-top: 15px;
-     padding-top: 20px;
-     color: #3633A1;
-     width: 8%;
-     margin-right: 20px;
- }
+}
+button{
+    border: none;
+    text-decoration: none;
+    
+}
+.logo1{
+    width: 50%;
+}
+.logo1 input{
+    
+    font-size: 1.17rem;
+    width: 85%;
+    border: none;
+    outline: none;padding-left: 5px;
+}
+.logo1 i{
+    font-size: 1.3rem;
+    padding-left: 10px;
+    color:#5953b8 ;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.logo1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    width: 20%;
+    border: 2px solid black;
+    height: 45px;
+    
+}
+.bag1{
+    visibility: hidden;
+}
+
+.bag i{
+    font-size: 2.8rem;
+    height: 60px;
+    margin-top: 15px;
+    padding-top: 20px;
+    color: #3633A1;
+    width: 10%;
+    margin-right: 20px;
+}
+.bag a{
+    width: 5%;
+    margin-left: 20%;
+}
  .option{
      display: flex;
      justify-content: space-evenly;

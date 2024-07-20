@@ -463,3 +463,139 @@ body{
     cursor: pointer;
     margin: 5px auto auto 65px;
 }
+.fotter{
+    display: flex;
+    justify-content: space-evenly;
+}
+.f{
+    background-color: #e5e5e5;
+    height: 200px;
+    padding-top: 20px;
+}
+.fotter2{
+    display: inline;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding-left: 6%;
+}
+.fotter2 a{
+    text-decoration: none;
+    color: #544747;
+}
+.fotter3{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+.fotter3 a{
+    text-decoration: none;
+    color: #544747;
+    
+}
+.fotter4{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 2%;
+}
+.fotter4 h4{
+    
+    text-decoration: none;
+    color: #544747;
+}
+.foot p{
+    color: #544747;
+    font-size: 1.3rem;
+    padding-right: 2%;
+}
+.foot h3{
+    font-size: 1.4rem;
+    color: #544747;
+}
+
+.foot1 a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #544747;
+    
+}
+.foot2 a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #544747;
+}
+.foot3 a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #544747;
+}
+.foot4 a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #544747;
+}
+.foot input{
+    width: 300px;
+    height: 30px;
+}
+.popup-link1{
+    border: 2px solid #000;
+    width: 200px;
+    height:30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #000;
+    text-decoration: none;
+}
+.overlay1 {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.overlay1:target {
+    visibility: visible;
+}
+.popup2 {
+    position: relative;
+    margin: 170px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.popup-header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.popup-close1 {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.popup2 p{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: medium;
+}
+
+.foot i{
+    font-size: 1.9rem;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
