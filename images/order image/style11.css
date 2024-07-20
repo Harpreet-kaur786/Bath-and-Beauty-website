@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gold;
+    font-family: SourceSansPro,Arial,sans-serif;
+    overflow: hidden;
+ }
+
+ .slider{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    width: 100vw;
+ }
+
+ /* .float{
+    width: 200px;
+    height: 200px;
+    animation: float 2s infinite alternate;
+ }
+
+ @keyframes float {
+    0%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(400px);
+    }
+ } */
+
+
+ /* .float{
+    width: 200px;
+    height: 200px;
+    animation: rotate 3s infinite alternate;
+    
+ }
+
+ @keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(20deg);
+    }
+    100%{
+        transform: rotate(-20deg);
+    }
+ } */
+
+
+.myimg
+{
+    width: 200px;
+    height: 200px;
+}
+.float{
+    display:inline;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation: float 8s linear infinite;
+    
+ }
+
+ @keyframes float {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-500px);
+    }
+ }
