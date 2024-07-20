@@ -111,11 +111,15 @@ body{
      padding-top: 20px;
      display: flex;
     color: #db3d86;
-    width: 64%;
+    width: 50%;
     justify-content: end;
     padding-left: 100px;
     margin-left: 220px;
  
+ }
+ .logo a{
+    width: 70%;
+    text-align: center;
  }
 
  .image{
@@ -153,18 +157,10 @@ body{
      align-items: center;
      justify-content: flex-start;
      margin-top: 20px;
-     width: 22%;
+     width: 20%;
      border: 2px solid black;
      height: 45px;
      
- }
-
- .signin{
-     font-size: 0.6rem;
-     height: 60px;
-     margin-top: 20px;
-     width: 8%;
-    
  }
 
  .bag i{
@@ -175,6 +171,10 @@ body{
      color: #3633A1;
      width: 8%;
      margin-right: 20px;
+ }
+ .bag a{
+    width: 5%;
+    margin-left: 20%;
  }
  .option{
      display: flex;
