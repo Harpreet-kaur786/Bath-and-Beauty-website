@@ -599,3 +599,296 @@ body{
     padding-right: 20px;
     padding-bottom: 10px;
 }
+@media (max-width:900px){
+    header, header.stickyOn {
+        border: none !important;
+        z-index: 111 !important;
+    }
+        body{
+            overflow-x: hidden;
+            max-width: 100%;
+        }
+        
+        .head{
+            margin-top: 0;
+            padding: 0;
+            width: 100%;
+            overflow-x: hidden;
+            font-size: 1rem;
+            height: 350px;
+        }
+        
+       .info{
+        display:inline-block;
+        height: 70px;
+        width: 100%;
+        padding-bottom: 10px;
+        text-align: center;
+        align-self: center;
+    
+       }
+       .info a{
+        display: inline;
+        color: #fff;
+        font-size: 1rem;
+       }
+       span{
+        font-size: 1rem;
+       }
+       .sale{
+        font-size: 1.1rem;
+       }
+       .savings{
+        display: inline;
+        font-size: 1.2rem;
+       }
+       .info a{
+        font-size: 1.2rem;
+       }
+       .info p{
+    
+        font-size: 2rem;
+        color:#fff;
+        font-weight: 700;
+    display: inline;
+    font-size: 1rem;
+       }
+       .pannelall{
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-top: 10px;
+        height: 60px;
+       }
+       .pannel{
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 900;
+        height: 20px;
+        
+       }
+       .pannel2{
+        visibility: hidden;
+       }
+       .pannel3{
+       display: inline-block;
+       height: 30px;
+       margin: 0;
+       padding: 0;
+       width: 100%;
+       margin-top: 10px;
+       text-align: center;
+    
+       }
+       .logo{
+        padding: 0;
+        margin: 0;
+        display: inline;
+       }
+       .image{
+        width: 80%;
+        text-align: center;
+       }
+       
+       .bag1{
+        visibility: visible;
+        margin-left: 3px;
+        width: 10%;
+       }
+       .bag1 i{
+        font-size: 2rem;
+       }
+       .bag1 a{
+        text-decoration: none;
+       }
+       .bag{
+        visibility: hidden;
+        height: 0%;
+        width: 0%;
+       }
+       .bag a{
+        visibility: hidden;
+        height: 0%;
+        width: 0%;
+       }
+       .logo1{
+        width: 85%;
+        margin-left: 28px;
+        margin-top: 10%;
+    
+       }
+       
+       .option{
+        overflow: auto;
+        white-space: none;
+        width: 100%;
+       margin: 0;
+       margin-left: 10px;
+        margin-top: 0;
+       }
+       
+       .option a{
+        font-size: 20px;
+        
+       }   
+       .fotter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 0;
+        padding-top: 0;
+        
+      }
+      .foot{
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+      }
+      
+      .foot p{
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+      .foot ::placeholder{
+        text-align: center;
+        display: inline-block;
+      }
+      .foot h4{
+        text-align: center;
+        display: inline-block;
+        margin-top: 10px;
+        padding-top: 5px;
+      }
+      .foot1 {
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+      }
+      .foot1 a{
+        font-size: 1.1rem;
+        font-weight: 800;
+      }
+      .foot1 p{
+           font-size: 1rem;
+           font-weight: 600;
+      }
+      .foot2{
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+      }
+      .foot2 p{
+           font-size: 1rem;
+           font-weight: 600;
+      }
+      .foot2 a{
+        font-size: 1.1rem;
+        font-weight: 800;
+      }
+      .foot3{
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+      }
+      .foot3 p{
+           font-size: 1rem;
+           font-weight: 600;
+      }
+      .foot3 a{
+        font-size: 1.1rem;
+        font-weight: 800;
+      }
+      .foot4{
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+      }
+      .foot4 p{
+           font-size: 1rem;
+           font-weight: 600;
+      }
+      .foot4 a{
+        font-size: 1.1rem;
+        font-weight: 800;
+      }
+      .f{
+        display: inline-block;
+        height: 0%;
+      }
+      .state{
+        visibility: hidden;
+      }
+      .share{
+        visibility: hidden;
+      }
+      .term{
+        display: inline-block;
+        margin: 0%;
+        padding: 0%;
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+    
+      }
+      .fotter2{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+      .fotter2 a{
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .fotter3{
+        display: inline-block;
+        margin: 0%;
+        padding: 0%;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 0;
+        margin-top: 0;
+        width: 90%;
+        text-align: center;
+        width: 100%;
+      }
+      .fotter4{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+      }
+      .popup-link{
+        border: 2px solid #000;
+        width: 100px;
+        height:40px;
+        font-size: 1.3rem;
+        font-weight: 300;
+        margin-left: 35%;
+    }
+    .popup {
+        position: relative;
+        margin: 10px;
+        padding: 20px;
+        width: 300px;
+        height: auto;
+    }
+    .popup-header{
+        margin-bottom: 0;
+    }
+    .popup-close {
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
