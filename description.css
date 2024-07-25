@@ -31,7 +31,7 @@ body {
     font-weight: 700;
     padding-left: 5px;
     padding-bottom: 20px;
-    border-radius: 2px solid white;
+    border-radius: 2px;
 }
 
 .savings{
@@ -233,7 +233,7 @@ button{
 
 .slide a{
    font-size: 18px;
-   font-style: bold;
+   font-weight: bold;
    font-weight: 200;
    text-align: center;
 }
@@ -253,7 +253,7 @@ button{
 }
 
 .bag2 {
-   font-style: bold;
+   font-weight: bold;
    font-size: 30px;
    margin: 10px 0 10px 120px;
 }
@@ -581,7 +581,7 @@ button.add-to-bag:hover {
 }
 
 .Cshop {
-    font-style: bold;
+    font-weight: bold;
     font-size: 10px;
     margin: 5px 0 10px 0px;
     text-align: left;
@@ -911,8 +911,7 @@ button{
    }
    .option{
     overflow: auto;
-    white-space: none;
-    width: 100%;
+      width: 100%;
    margin: 0;
    margin-left: 10px;
     margin-top: 0;
@@ -1066,7 +1065,7 @@ button{
     text-align: center;
   }
   .bag2 {
-    font-style: 600;
+    font-weight: 600;
     font-size: 20px;
     margin:0;
     text-align: center;
@@ -1203,7 +1202,6 @@ header p{
     border:  1px solid gray;
     height: 500px;
     width: 80%;
-    text-align: none;
     margin-bottom: 20px;
 }
 

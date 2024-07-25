@@ -29,7 +29,7 @@ body{
      font-weight: 700;
      padding-left: 5px;
      padding-bottom: 20px;
-     border-radius: 2px solid white;
+     border-radius: 2px;
  }
  .savings{
      font-size: 1.2rem;
@@ -470,7 +470,6 @@ button{
        }
        .option{
         overflow: auto;
-        white-space: none;
         width: 100%;
        margin: 0;
        margin-left: 10px;
@@ -505,7 +504,6 @@ button{
        .wedding{
         width: 80%;
         height: 150px;
-        box-shadow: #000;
        }
        .options{
         width: 90%;
