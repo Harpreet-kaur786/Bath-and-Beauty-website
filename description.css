@@ -580,11 +580,14 @@ button.add-to-bag:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.Cshop {
+.Cshop  {
     font-weight: bold;
     font-size: 10px;
     margin: 5px 0 10px 0px;
     text-align: left;
+ }
+ .Cshop a{
+    font-size: 1rem;
  }
  .popup-link {
     color: navy;
