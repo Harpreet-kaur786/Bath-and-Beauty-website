@@ -112,14 +112,14 @@ span{
     padding-top: 20px;
     display: flex;
    color: #db3d86;
-   width: 50%;
+   width: 60%;
    justify-content: end;
-   padding-left: 100px;
-   margin-left: 220px;
+   padding: 0;
+   margin:0;
 
 }
 .logo a{
-   width: 70%;
+   width: 55%;
    text-align: center;
 }
 
@@ -146,7 +146,7 @@ button{
     font-size: 1.3rem;
     padding-left: 10px;
     color:#5953b8 ;
-    width: 10%;
+    width: 15%;
     display: flex;
     justify-content: center;
     
@@ -157,8 +157,8 @@ button{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 20px;
-    width: 20%;
+    margin-top: 0;
+    width: 25%;
     border: 2px solid black;
     height: 45px;
     
@@ -167,7 +167,7 @@ button{
 .bag i{
     font-size: 2.8rem;
     height: 60px;
-    margin-top: 15px;
+    margin-top: 0;
     padding-top: 20px;
     color: #3633A1;
     width: 8%;
@@ -623,7 +623,7 @@ button.add-to-bag:hover {
 }
 .popup-close {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     color: black;
 }
@@ -769,7 +769,7 @@ button.add-to-bag:hover {
 }
 .popup-close1 {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     color: black;
 }
@@ -785,17 +785,18 @@ button.add-to-bag:hover {
     padding-right: 20px;
     padding-bottom: 10px;
 }
+button{
+    background-color: white;
+}
 @media (max-width:900px) {
 
-    body{
-        overflow-x: hidden;
-        max-width: 100%;
-    }
+    
     
     .head{
         margin-top: 0;
         padding: 0;
         width: 100%;
+        margin-left: 5px;
         overflow-x: hidden;
         font-size: 1rem;
         height: 350px;
@@ -814,6 +815,7 @@ button.add-to-bag:hover {
     display: inline;
     color: #fff;
     font-size: 1rem;
+    width: 100%;
    }
    span{
     font-size: 1rem;
@@ -845,6 +847,7 @@ button.add-to-bag:hover {
     text-align: center;
     margin-top: 10px;
     height: 60px;
+    font-size: 10px;
    }
    .pannel{
     width: 100%;
@@ -855,7 +858,7 @@ button.add-to-bag:hover {
     
    }
    .pannel2{
-    visibility: hidden;
+    display: none;
    }
    .pannel3{
    display: inline-block;
@@ -890,12 +893,12 @@ button.add-to-bag:hover {
     text-decoration: none;
    }
    .bag{
-    visibility: hidden;
+    display: none;
     height: 0%;
     width: 0%;
    }
    .bag a{
-    visibility: hidden;
+    display: none;
     height: 0%;
     width: 0%;
    }
@@ -925,6 +928,8 @@ button.add-to-bag:hover {
     justify-content: space-evenly;
     margin-top: 0;
     padding-top: 0;
+    align-items: center;
+    width: 100%;
     
   }
   .foot{
@@ -962,6 +967,7 @@ button.add-to-bag:hover {
        font-size: 1rem;
        font-weight: 600;
   }
+  
   .foot2{
     display: inline-block;
     font-size: 1rem;
@@ -985,6 +991,7 @@ button.add-to-bag:hover {
   .foot3 p{
        font-size: 1rem;
        font-weight: 600;
+       
   }
   .foot3 a{
     font-size: 1.1rem;
@@ -1007,6 +1014,10 @@ button.add-to-bag:hover {
   .f{
     display: inline-block;
     height: 0%;
+    text-align: center;
+    width: 100%;
+    margin-left: 5px;
+    margin-bottom: 5px;
   }
   .state{
     visibility: hidden;
@@ -1056,30 +1067,216 @@ button.add-to-bag:hover {
   }
   .bag2 {
     font-style: 600;
-    font-size: 25px;
+    font-size: 20px;
     margin:0;
     text-align: center;
     width: 100%;
  }
- .recommend {
+ .popup-link1{
+    border: 2px solid #000;
+    width: 200px;
+    height:30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #000;
+    text-decoration: none;
+}
+.overlay1 {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    margin: 0 ;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.overlay1:target {
+    visibility: visible;
+}
+.popup2 {
+    position: relative;
+    margin: 170px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    max-width: 270px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.popup-header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.popup-close1 {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.popup2 p{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: medium;
+}
+ .recommend {
+    width:80%;
+    margin:0;
+    padding: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 10%;
+}
+.line-with-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.slider{
+    width: 100%;
+}
+.slide{
+    height: 60vmin;
+    width: 60vmin;
+}
+.viewAdded {
+    width: 90%;
+    margin: 10px auto 0 0;
     padding: 20px;
     text-align: center;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
- }
- .line-with-text {
-    width: 90%;
-    display: inline-block;
-    margin: 20px 0;
-    font-weight: bolder;
-    font-size: 10px;
 }
-.slider{
-    display: inline-block;
+.Cshop{
+    font-size: 0.7rem;
+    text-align: center;
 }
-.slide{
+header a{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+header p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.container{ 
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 0;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 0;
+    
+
+}.product-details {
+    display: inline-block;
+    margin: 10px auto auto 0;
+}
+.product-image  {
+    width: 60px;
+    margin-right:0;
+    transition: transform 0.7s ease;
+}
+.product-info {
+    width: 100%;
+    margin-left: 0;
+}
+.overview{
+    display: inline-block;
+    margin: 0;
+    margin-top: 40px;
+    border:  1px solid gray;
+    height: 500px;
     width: 80%;
+    text-align: none;
+    margin-bottom: 20px;
+}
+
+.tabs .tab {
+    text-decoration: none;
+    color: #0073e6;
+    margin-right: 10px;
+    padding: 10px 0;
+    display: inline-block;
+    font-size: 1.6rem;
+    position: relative;
+}
+.tab-content {
+    margin: 10px;
+    font-size: 1rem;
+    color: #555;
+    padding-top: 5px;
+}
+.popup-link1{
+    width: 40%;
+    text-align: center;
+    display: inline;
+}
+.promotional-details1{
+    margin-top: 10px;
+}
+.foot input{
+    width: 160px;
+    border: 1px solid black;
+}
+button{
+    background-color: white;
+}
+.stars {
+    color: gold;
+    margin-right: 5px;
+    font-size: 2.5rem;
+}
+.price .original-price {
+    font-size: 1.7rem;
+}
+    
+.price .discounted-price {
+    font-size: 2rem;
+}
+
+.price .weight {
+    font-size: 1.4rem;
+}
+.promotional-details {
+    font-size: 1.4rem;
+}
+
+.quantity {
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+.quantity-controls button {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+}
+
+.quantity-controls input {
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+}
+.stock-status {
+    font-size: 1.4rem;    
+}
+.popup {
+    max-width: 230px;
+    height: 580px;
 }
 }

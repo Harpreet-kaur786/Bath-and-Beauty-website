@@ -4,7 +4,141 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
- 
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.header .blue-box img {
+    width: 450px;
+    height: 125px;
+}
+
+.header .text-in{
+    align-items: center;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: "Pacifico", cursive;
+    font-style: normal;
+}
+
+.header h3 {
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+.link-head nav {
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+}
+
+.link-head nav a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 5px;
+}
+
+.link-head nav a:hover{
+    color: #3633A1;
+}
+
+.forms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 10px 0;
+}
+
+.form-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form label {
+    margin-bottom: 5px;
+}
+
+.form-container form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container form .remember-me,
+.form-container form .terms,
+.form-container form .subscribe {
+    display: flex;
+    align-items: center;
+}
+
+.form-container form .remember-me input,
+.form-container form .terms input,
+.form-container form .subscribe input {
+    margin-right: 10px;
+}
+
+.form-container form .terms label,
+.form-container form .subscribe label {
+    font-size: 0.9rem;
+}
+
+.form-container form .terms label a,
+.form-container form .subscribe label a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.form-container form .terms label a:hover,
+.form-container form .subscribe label a:hover {
+    text-decoration: underline;
+}
+
+.form-container form button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-container form button:hover {
+    background-color: #005bb5;
+}
  .info{
      display: flex;
      justify-content: center;
@@ -112,14 +246,14 @@ body {
      padding-top: 20px;
      display: flex;
     color: #db3d86;
-    width: 50%;
-    justify-content: end;
-    padding-left: 100px;
-    margin-left: 220px;
+    width: 60%;
+    justify-content:end;
+    padding-left: 0;
+    margin-left: 0;
  
  }
  .logo a{
-    width: 70%;
+    width: 55%;
     text-align: center;
  }
 
@@ -146,7 +280,7 @@ body {
      font-size: 1.3rem;
      padding-left: 10px;
      color:#5953b8 ;
-     width: 10%;
+     width: 15%;
      display: flex;
      justify-content: center;
      
@@ -158,7 +292,7 @@ body {
      align-items: center;
      justify-content: flex-start;
      margin-top: 20px;
-     width: 20%;
+     width: 25%;
      border: 2px solid black;
      height: 45px;
      
@@ -201,136 +335,7 @@ body {
  .allsale:visited{
      color: #e81111;
  }
-
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    padding: 20px;
-}
-
-.header .blue-box img {
-    width: 375px;
-    height: 125px;
-}
-
-.header .text-in{
-    align-items: center;
-    text-align: center;
-}
-
-.header h1 {
-    margin: 0;
-    font-size: 3rem;
-    font-family: "Pacifico", cursive;
-    font-style: normal;
-}
-
-.header h3 {
-    margin-top: 1px;
-}
-
-.link-head nav {
-    padding: 10px 20px;
-    background-color: #f8f8f8;
-    font-size: 14px;
-}
-
-.link-head nav a {
-    text-decoration: none;
-    color: #333;
-    margin-right: 5px;
-}
-
-.link-head nav a:hover{
-    color: #3633A1;
-}
-
-.forms {
-    display: flex;
-    justify-content: space-around;
-}
-
-.form-container {
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 45%;
-}
-
-.form-container h3 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.form-container form {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-container form label {
-    margin-bottom: 5px;
-}
-
-.form-container form input {
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.form-container form .remember-me,
-.form-container form .terms,
-.form-container form .subscribe {
-    display: flex;
-    align-items: center;
-}
-
-.form-container form .remember-me input,
-.form-container form .terms input,
-.form-container form .subscribe input {
-    margin-right: 10px;
-}
-
-.form-container form .terms label,
-.form-container form .subscribe label {
-    font-size: 0.9rem;
-}
-
-.form-container form .terms label a,
-.form-container form .subscribe label a {
-    color: #0073e6;
-    text-decoration: none;
-}
-
-.form-container form .terms label a:hover,
-.form-container form .subscribe label a:hover {
-    text-decoration: underline;
-}
-
-.form-container form button {
-    padding: 10px;
-    font-size: 1rem;
-    background-color: #0073e6;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-.form-container form button:hover {
-    background-color: #005bb5;
-}
-.popup-link {
+ .popup-link {
     color: navy;
     text-decoration: underline;
     cursor: pointer;
@@ -367,7 +372,7 @@ body {
 }
 .popup-close {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     color: black;
 }
@@ -502,7 +507,7 @@ body {
     padding: 20px;
     background: white;
     border-radius: 5px;
-    max-width: 400px;
+    max-width: 250px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .popup-header1 {
@@ -513,7 +518,7 @@ body {
 }
 .popup-close1 {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: bold;
     color: black;
 }
@@ -529,135 +534,314 @@ body {
     padding-right: 20px;
     padding-bottom: 10px;
 }
+button{
+    background-color:none;
+}
+
 @media (max-width:900px) {
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
+    .header .blue-box img {
+        max-width: 100%;
     }
-    .container {
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .header h3 {
+        font-size: 0.7rem;
+    }
+
+    .form-container {
         width: 100%;
-        margin: 0;
+    }
+    .head{
+        margin-top: 0;
         padding: 0;
-        display: inline;
+        margin-left:5px;
+        width: 100%;
+        overflow-x: hidden;
+        font-size: 1rem;
+        height: 350px;
     }
     
-.header {
-    display:inline;
-    padding: 0;
-    margin: 0;
-    width: 80%;
-}
-.header .blue-box img {
-    width: 120px;
+   .info{
+    display:inline-block;
     height: 70px;
-}
-
-.header .text-in{
+    width: 100%;
+    padding-bottom: 10px;
     text-align: center;
-}
+    align-self: center;
 
-.header h1 {
-    width: 30%;
-    margin: 0;
+   }
+   .info a{
+    display: inline;
+    color: #fff;
     font-size: 1rem;
-    font-family: "Pacifico", cursive;
-    font-style: normal;
-}
+   }
+   span{
+    font-size: 1rem;
+   }
+   .sale{
+    font-size: 1.1rem;
+   }
+   .savings{
+    display: inline;
+    font-size: 1.2rem;
+   }
+   .info a{
+    font-size: 1.2rem;
+   }
+   .info p{
 
-.header h3 {
-    font-size: 0.6rem;
-    width: 30%;
-}
-.link-head nav {
-    padding: 10px;
-    background-color: #f8f8f8;
-    font-size: 10px;
-    width: 50%;
-}
-
-.link-head nav a {
-    text-decoration: none;
-    color: #333;
-}
-
-.link-head nav a:hover{
-    color: #3633A1;
-}
-.forms {
+    font-size: 2rem;
+    color:#fff;
+    font-weight: 700;
+display: inline;
+font-size: 1rem;
+   }
+   .pannelall{
     display: inline-block;
     width: 100%;
-}
-
-.form-container {
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 60%;
-}
-.form-container h3 {
+    margin: 0;
+    padding: 0;
     text-align: center;
-    margin-bottom: 10px;
-}
-
-.form-container form {
-    display: inline;
-}
-
-.form-container form label {
-    margin-bottom: 1px;
-    font-size: 10px;
-}
-.form-container form input {
-    margin-bottom: 5px;
-    padding: 5px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-}
-
-.form-container form .remember-me,
-.form-container form .terms,
-.form-container form .subscribe {
-    display: flex;
-    align-items: center;
-    font-size: 10px;
-}
-.form-container form .remember-me input,
-.form-container form .terms input,
-.form-container form .subscribe input {
-    margin-right: 2px;
-}
-
-.form-container form .terms label,
-.form-container form .subscribe label {
-    font-size: 10px;
-}
-.form-container form .terms label a,
-.form-container form .subscribe label a {
-    color: #0073e6;
-    text-decoration: none;
-    font-size: 10px;
-}
-
-.form-container form .terms label a:hover,
-.form-container form .subscribe label a:hover {
-    text-decoration: underline;
-    font-size: 10px;
-}
-.form-container form button {
-    padding: 5px;
-    font-size: 10px;
-    background-color: #0073e6;
-    color: #fff;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
     margin-top: 10px;
-}
+    height: 60px;
+   }
+   .pannel{
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 900;
+    height: 20px;
+    
+   }
+   .pannel2{
+    display: none;
+   }
+   .pannel3{
+   display: inline-block;
+   height: 30px;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   margin-top: 10px;
+   text-align: center;
 
-.form-container form button:hover {
-    background-color: #005bb5;
+   }
+   .logo{
+    padding: 0;
+    margin: 0;
+    display: inline;
+   }
+   .image{
+    width: 80%;
+    text-align: center;
+   }
+   
+   .bag1{
+    visibility: visible;
+    margin-left: 3px;
+    width: 10%;
+   }
+   .bag1 i{
+    font-size: 2rem;
+   }
+   .bag1 a{
+    text-decoration: none;
+   }
+   .bag{
+    display: none;
+    height: 0%;
+    width: 0%;
+   }
+   .bag a{
+    display: none;
+    height: 0%;
+    width: 0%;
+   }
+   .logo1{
+    width: 85%;
+    margin-left: 28px;
+    margin-top: 10%;
+
+   }
+   
+   .option{
+    overflow: auto;
+    white-space: none;
+    width: 100%;
+   margin: 0;
+   margin-left: 10px;
+    margin-top: 0;
+   }
+   
+   .option a{
+    font-size: 20px;
+    
+   }   
+   .fotter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 0;
+    padding-top: 0;
+    
+  }
+  .foot{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .foot p{
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .foot ::placeholder{
+    text-align: center;
+    display: inline-block;
+  }
+  .foot h4{
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    padding-top: 5px;
+  }
+  .foot1 {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  .foot1 a{
+    font-size: 1.1rem;
+    font-weight: 800;
+  }
+  .foot1 p{
+       font-size: 1rem;
+       font-weight: 600;
+  }
+  .foot2{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  .foot2 p{
+       font-size: 1rem;
+       font-weight: 600;
+  }
+  .foot2 a{
+    font-size: 1.1rem;
+    font-weight: 800;
+  }
+  .foot3{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  .foot3 p{
+       font-size: 1rem;
+       font-weight: 600;
+  }
+  .foot3 a{
+    font-size: 1.1rem;
+    font-weight: 800;
+  }
+  .foot4{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  .foot4 p{
+       font-size: 1rem;
+       font-weight: 600;
+  }
+  .foot4 a{
+    font-size: 1.1rem;
+    font-weight: 800;
+  }
+  .f{
+    display: inline-block;
+    height: 0%;
+    width: 100%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  .term{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+
+  }
+  .fotter2{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .fotter2 a{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .fotter3{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 0;
+    margin-top: 0;
+    width: 90%;
+    text-align: center;
+    width: 100%;
+  }
+  .fotter4{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .popup-link1{
+    border: 2px solid #000;
+    width: 100px;
+    height:40px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-left: 35%;
+}
+.popup {
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+}
+.popup-header{
+    margin-bottom: 0;
+}
+.popup-close {
+    font-size: 35px;
+    font-weight: 600;
+}
+.state{
+    display: none;
+  }
+  .share{
+    visibility: hidden;
+  }
+  .foot input{
+    width: 160px;
+    border: 1px solid black;
 }
 }
