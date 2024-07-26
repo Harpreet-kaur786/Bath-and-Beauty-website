@@ -321,6 +321,10 @@ header nav a:hover{
     border: 1px solid #ddd;
     padding: 10px;
     background-color: #fff;
+    transition: transform 0.7s ease;
+}
+.product-image img:hover {
+    transform: scale(1.2); /* Zoom in to 120% of original size */
 }
 
 .product-details {
