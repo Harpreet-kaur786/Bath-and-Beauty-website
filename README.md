@@ -21,7 +21,7 @@ This project is a basically a clone of offical website of Bath and Beauty works 
 •	Description Page: Created the product description page, providing detailed information about each product.
 
 •	Sign-In/Sign-Out (Registration) Page: Designed the user authentication pages, including registration, sign-in, and    sign-out functionalities.
-
+•  Responsive pages : Making all the html pages for mobile approach.
 
 03.	Design Principles:
 •  Proximity: Related elements are grouped together to create a visual connection between them. For example, on the product description page, the product image, price, and description are placed close to each other to indicate their relationship.

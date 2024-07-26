@@ -258,7 +258,7 @@ body{
  }
  
  .recommend {
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 0 100px 25px 120px;
     padding: 20px;
     text-align: center;
@@ -641,7 +641,7 @@ button{
         .head{
             margin-top: 0;
             padding: 0;
-            margin-left:0;
+            margin-left:5px;
             width: 100%;
             overflow-x: hidden;
             font-size: 1rem;
@@ -776,6 +776,7 @@ button{
         align-items: center;
         text-align: center;
         font-size: 1rem;
+        margin-left: 5px;
       }
       
       .foot p{
