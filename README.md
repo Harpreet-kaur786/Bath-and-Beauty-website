@@ -11,7 +11,8 @@ This project is a basically a clone of offical website of Bath and Beauty works 
    Harpreet Kaur
 •  Index Page : Developed the main landing page of the website, including the navigation bar, hero section, and footer.
 
-•  Gifts Page or Contact Us Page:: Created the gifts section page, showcasing various gift items with images and       descriptions. Designed and implemented the contact us section with a form for users to reach out with inquiries.
+•  Gifts Page or Contact Us Page:: Created the gifts section page, showcasing various gift items with images and       descriptions. Designed and implemented the contact us section with 
+   a form for users to reach out with inquiries.
 
 •  Responsive pages : Making all the html pages for mobile approach.
 
@@ -24,18 +25,20 @@ This project is a basically a clone of offical website of Bath and Beauty works 
 
 
 03.	Design Principles:
-•  Proximity: Related elements are grouped together to create a visual connection between them. For example, on the product description page, the product image, price, and description are placed close to each other to indicate their relationship.
+•  Proximity: Related elements are grouped together to create a visual connection between them. For example, on the product description page, the product image, price, and description 
+   are placed close to each other to indicate their relationship.
 
-•  Contrast: High contrast between text and background colors is used to enhance readability. For instance, we used black text on a white background and white text on dark backgrounds in headers and footers.
+•  Contrast: High contrast between text and background colors is used to enhance readability. For instance, we used black text on a white background and white text on dark backgrounds in 
+   headers and footers.
 
 •  Typography: Consistent font styles and sizes are used throughout the website to maintain a cohesive look. Headings are bold and larger, while body text is kept simple and readable.
 
-•  Alignment: Proper alignment of elements provides a clean and organized appearance. Text, images, and buttons are aligned in a way that guides the user's eye across the page efficiently.
+•  Alignment: Proper alignment of elements provides a clean and organized appearance. Text, images, and buttons are aligned in a way that guides the user's eye across the page 
+   efficiently.
 
 •  Repetition: Design elements like colors, fonts, and button styles are repeated across pages to provide a cohesive and familiar user experience.
 
-04. Accessibility Compliance
-
+04. Accessibility Compliance:
     To improve our website's accessibility compliance, we implemented the following strategies:
 •	Semantic HTML: Used semantic HTML tags such as <header>, <nav>, <main>, and <footer> to provide a clear structure.
 •	Alt Text for Images: Added alt attributes to all images to describe them for screen readers.
@@ -43,9 +46,8 @@ This project is a basically a clone of offical website of Bath and Beauty works 
 •	Form Labels: Included labels for all form elements to improve navigation with screen readers.
 •	Keyboard Navigation: Ensured that the website can be fully navigated using a keyboard.
 
-05. Search Engine Optimization (SEO) Strategies
-
-    To improve our website's search engine ranking, we employed the following SEO strategies:
+6. Search Engine Optimization (SEO) Strategies:
+   To improve our website's search engine ranking, we employed the following SEO strategies:
 •	Meta Tags: Included relevant meta tags such as title, description, and keywords on each page to improve visibility in search engine results.
 •	Alt Text for Images: Provided descriptive alt text for images to help search engines understand the content of the images.
 •	Clean URLs: Used descriptive and clean URLs to improve indexing by search engines.
