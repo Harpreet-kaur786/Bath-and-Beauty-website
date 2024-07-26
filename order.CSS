@@ -625,6 +625,9 @@ button{
 .Buy-now a:hover {
     color: red;
 }
+.Sh{
+    color: white;
+}
 @media (max-width:900px){
     header, header.stickyOn {
         border: none !important;

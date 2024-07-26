@@ -296,6 +296,9 @@ button{
     
   
 }
+.Sh{
+    color: white;
+}
 .shops{
     height: 300px;
     margin-left: 40px;
@@ -635,7 +638,6 @@ white-space: nowrap;
     text-decoration: none;
     font-size: 1.4rem;
     color: #544747;
-    
 }
 .foot2 a{
     text-decoration: none;

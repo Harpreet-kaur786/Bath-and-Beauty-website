@@ -346,6 +346,9 @@ textarea ::placeholder{
 button{
     background-color: white;
 }
+.Sh{
+    color: white;
+}
 @media (max-width:900px) {
 
         body{
