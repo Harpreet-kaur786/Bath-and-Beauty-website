@@ -2,13 +2,8 @@
 Project Description:
 This project is a basically a clone of offical website of Bath and Beauty works in which all the html and css are designed as based on the concepts and layout of the offical website. There are some changes in images and coding to create  visually  appealling and responsive web pages using modern css.
 
-01.	Group Members
-1.	Harpreet Kaur-  h_kaur236874@fanshaweonline.ca
-2.	Monika Bhalla-  m_bhalla236346 @fanshaweonline.ca 
 
 02.	Contributions
-
-   Harpreet Kaur
 •  Index Page : Developed the main landing page of the website, including the navigation bar, hero section, and footer.
 
 •  Gifts Page or Contact Us Page:: Created the gifts section page, showcasing various gift items with images and       descriptions. Designed and implemented the contact us section with 
@@ -16,7 +11,6 @@ This project is a basically a clone of offical website of Bath and Beauty works 
 
 •  Responsive pages : Making all the html pages for mobile approach.
 
-   Monika Bhalla
 •	Order Page: Developed the order form and functionality, allowing users to place orders for products.
 
 •	Description Page: Created the product description page, providing detailed information about each product.
